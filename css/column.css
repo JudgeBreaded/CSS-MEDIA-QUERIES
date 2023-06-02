@@ -1,0 +1,23 @@
+.container {
+    background-color: #ceceff;
+    margin: 0 auto;
+}
+@media  screen and (max-width: 767px) and (max-width:1024) {
+    .container {
+        width: 100%;
+        padding: 5px 10px;
+        background:bisque
+    }
+}
+@media screen and (min-width:1024px) {
+    .container{
+        width: 1000px;
+        padding: 5px 10px;
+        background: bisque;
+    }
+}
+@media screen and (min-width:1280px) {
+    .container{
+        width: 1260px;
+    }
+}
